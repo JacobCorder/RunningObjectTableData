@@ -108,6 +108,7 @@ Public Class WrappedObject
 
                         End Try
                     End If
+                    _RegisteredObjects = Nothing
                 End If
                 ' TODO: dispose managed state (managed objects).
             End If
